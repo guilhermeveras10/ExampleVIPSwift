@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		274130599843438AB38FFBA8 /* Pods_ExampleVIP_ExampleVIPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7376F6C7236F755804CD3569 /* Pods_ExampleVIP_ExampleVIPUITests.framework */; };
+		715F67A215503A3E2E42431F /* Pods_ExampleVIPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 814D4627446AE36AE7B747FE /* Pods_ExampleVIPTests.framework */; };
 		79DA22F92979DBCF0052CBA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA22F82979DBCF0052CBA8 /* AppDelegate.swift */; };
 		79DA22FB2979DBCF0052CBA8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA22FA2979DBCF0052CBA8 /* SceneDelegate.swift */; };
 		79DA22FD2979DBCF0052CBA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA22FC2979DBCF0052CBA8 /* ViewController.swift */; };
@@ -16,6 +18,14 @@
 		79DA23102979DBD10052CBA8 /* ExampleVIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA230F2979DBD10052CBA8 /* ExampleVIPTests.swift */; };
 		79DA231A2979DBD10052CBA8 /* ExampleVIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA23192979DBD10052CBA8 /* ExampleVIPUITests.swift */; };
 		79DA231C2979DBD10052CBA8 /* ExampleVIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA231B2979DBD10052CBA8 /* ExampleVIPUITestsLaunchTests.swift */; };
+		79DA23322979DCB30052CBA8 /* CatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA232C2979DCB30052CBA8 /* CatsPresenter.swift */; };
+		79DA23332979DCB30052CBA8 /* CatsWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA232D2979DCB30052CBA8 /* CatsWorker.swift */; };
+		79DA23342979DCB30052CBA8 /* CatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA232E2979DCB30052CBA8 /* CatsRouter.swift */; };
+		79DA23352979DCB30052CBA8 /* CatsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA232F2979DCB30052CBA8 /* CatsModels.swift */; };
+		79DA23362979DCB30052CBA8 /* CatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA23302979DCB30052CBA8 /* CatsViewController.swift */; };
+		79DA23372979DCB30052CBA8 /* CatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA23312979DCB30052CBA8 /* CatsInteractor.swift */; };
+		79DA23482979E61C0052CBA8 /* HttpRepositoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DA23472979E61C0052CBA8 /* HttpRepositoryHome.swift */; };
+		C83EF51AF85C8976A6E89DB5 /* Pods_ExampleVIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14E03440D269D8985BD087CD /* Pods_ExampleVIP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0832AC751C4FA71651CAD154 /* Pods-ExampleVIPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIPTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleVIPTests/Pods-ExampleVIPTests.release.xcconfig"; sourceTree = "<group>"; };
+		14E03440D269D8985BD087CD /* Pods_ExampleVIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleVIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		400BBB05A45DCF0493A162D0 /* Pods-ExampleVIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIP.release.xcconfig"; path = "Target Support Files/Pods-ExampleVIP/Pods-ExampleVIP.release.xcconfig"; sourceTree = "<group>"; };
+		40ABDC181D49351A771A666B /* Pods-ExampleVIPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIPTests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleVIPTests/Pods-ExampleVIPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7376F6C7236F755804CD3569 /* Pods_ExampleVIP_ExampleVIPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleVIP_ExampleVIPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA22F52979DBCF0052CBA8 /* ExampleVIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleVIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA22F82979DBCF0052CBA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79DA22FA2979DBCF0052CBA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,17 @@
 		79DA23152979DBD10052CBA8 /* ExampleVIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleVIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DA23192979DBD10052CBA8 /* ExampleVIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleVIPUITests.swift; sourceTree = "<group>"; };
 		79DA231B2979DBD10052CBA8 /* ExampleVIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleVIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79DA232C2979DCB30052CBA8 /* CatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsPresenter.swift; sourceTree = "<group>"; };
+		79DA232D2979DCB30052CBA8 /* CatsWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsWorker.swift; sourceTree = "<group>"; };
+		79DA232E2979DCB30052CBA8 /* CatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsRouter.swift; sourceTree = "<group>"; };
+		79DA232F2979DCB30052CBA8 /* CatsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsModels.swift; sourceTree = "<group>"; };
+		79DA23302979DCB30052CBA8 /* CatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsViewController.swift; sourceTree = "<group>"; };
+		79DA23312979DCB30052CBA8 /* CatsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsInteractor.swift; sourceTree = "<group>"; };
+		79DA23472979E61C0052CBA8 /* HttpRepositoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpRepositoryHome.swift; sourceTree = "<group>"; };
+		814D4627446AE36AE7B747FE /* Pods_ExampleVIPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleVIPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A977B4D1F21D9E883679B13E /* Pods-ExampleVIP-ExampleVIPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIP-ExampleVIPUITests.release.xcconfig"; path = "Target Support Files/Pods-ExampleVIP-ExampleVIPUITests/Pods-ExampleVIP-ExampleVIPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D1C7AF608C24E22161F30492 /* Pods-ExampleVIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIP.debug.xcconfig"; path = "Target Support Files/Pods-ExampleVIP/Pods-ExampleVIP.debug.xcconfig"; sourceTree = "<group>"; };
+		FDEBF11D0DE2E492BB879ED8 /* Pods-ExampleVIP-ExampleVIPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleVIP-ExampleVIPUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleVIP-ExampleVIPUITests/Pods-ExampleVIP-ExampleVIPUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C83EF51AF85C8976A6E89DB5 /* Pods_ExampleVIP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				715F67A215503A3E2E42431F /* Pods_ExampleVIPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274130599843438AB38FFBA8 /* Pods_ExampleVIP_ExampleVIPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52C2BD57DAA47E94392B545C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1C7AF608C24E22161F30492 /* Pods-ExampleVIP.debug.xcconfig */,
+				400BBB05A45DCF0493A162D0 /* Pods-ExampleVIP.release.xcconfig */,
+				FDEBF11D0DE2E492BB879ED8 /* Pods-ExampleVIP-ExampleVIPUITests.debug.xcconfig */,
+				A977B4D1F21D9E883679B13E /* Pods-ExampleVIP-ExampleVIPUITests.release.xcconfig */,
+				40ABDC181D49351A771A666B /* Pods-ExampleVIPTests.debug.xcconfig */,
+				0832AC751C4FA71651CAD154 /* Pods-ExampleVIPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6414CF84B2D9F1F29C12AFC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14E03440D269D8985BD087CD /* Pods_ExampleVIP.framework */,
+				7376F6C7236F755804CD3569 /* Pods_ExampleVIP_ExampleVIPUITests.framework */,
+				814D4627446AE36AE7B747FE /* Pods_ExampleVIPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79DA22EC2979DBCF0052CBA8 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				79DA230E2979DBD10052CBA8 /* ExampleVIPTests */,
 				79DA23182979DBD10052CBA8 /* ExampleVIPUITests */,
 				79DA22F62979DBCF0052CBA8 /* Products */,
+				52C2BD57DAA47E94392B545C /* Pods */,
+				6414CF84B2D9F1F29C12AFC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +153,7 @@
 		79DA22F72979DBCF0052CBA8 /* ExampleVIP */ = {
 			isa = PBXGroup;
 			children = (
+				79DA23282979DC070052CBA8 /* App */,
 				79DA22F82979DBCF0052CBA8 /* AppDelegate.swift */,
 				79DA22FA2979DBCF0052CBA8 /* SceneDelegate.swift */,
 				79DA22FC2979DBCF0052CBA8 /* ViewController.swift */,
@@ -127,6 +182,52 @@
 			path = ExampleVIPUITests;
 			sourceTree = "<group>";
 		};
+		79DA23282979DC070052CBA8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				79DA23452979E54C0052CBA8 /* Common */,
+				79DA23292979DC370052CBA8 /* Modules */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		79DA23292979DC370052CBA8 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				79DA232A2979DC5A0052CBA8 /* Cats */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		79DA232A2979DC5A0052CBA8 /* Cats */ = {
+			isa = PBXGroup;
+			children = (
+				79DA232C2979DCB30052CBA8 /* CatsPresenter.swift */,
+				79DA232D2979DCB30052CBA8 /* CatsWorker.swift */,
+				79DA232E2979DCB30052CBA8 /* CatsRouter.swift */,
+				79DA232F2979DCB30052CBA8 /* CatsModels.swift */,
+				79DA23312979DCB30052CBA8 /* CatsInteractor.swift */,
+				79DA23302979DCB30052CBA8 /* CatsViewController.swift */,
+			);
+			path = Cats;
+			sourceTree = "<group>";
+		};
+		79DA23452979E54C0052CBA8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				79DA23462979E5F40052CBA8 /* HTTPSHelper */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		79DA23462979E5F40052CBA8 /* HTTPSHelper */ = {
+			isa = PBXGroup;
+			children = (
+				79DA23472979E61C0052CBA8 /* HttpRepositoryHome.swift */,
+			);
+			path = HTTPSHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79DA231F2979DBD10052CBA8 /* Build configuration list for PBXNativeTarget "ExampleVIP" */;
 			buildPhases = (
+				C019368A4E352745954AE5E4 /* [CP] Check Pods Manifest.lock */,
 				79DA22F12979DBCF0052CBA8 /* Sources */,
 				79DA22F22979DBCF0052CBA8 /* Frameworks */,
 				79DA22F32979DBCF0052CBA8 /* Resources */,
+				A66A8758C24DA393653DE2EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79DA23222979DBD10052CBA8 /* Build configuration list for PBXNativeTarget "ExampleVIPTests" */;
 			buildPhases = (
+				DB2CBBC6B7ACB046E74CAB6D /* [CP] Check Pods Manifest.lock */,
 				79DA23072979DBD10052CBA8 /* Sources */,
 				79DA23082979DBD10052CBA8 /* Frameworks */,
 				79DA23092979DBD10052CBA8 /* Resources */,
@@ -169,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79DA23252979DBD10052CBA8 /* Build configuration list for PBXNativeTarget "ExampleVIPUITests" */;
 			buildPhases = (
+				96358E493ADEB16C1B2C8A52 /* [CP] Check Pods Manifest.lock */,
 				79DA23112979DBD10052CBA8 /* Sources */,
 				79DA23122979DBD10052CBA8 /* Frameworks */,
 				79DA23132979DBD10052CBA8 /* Resources */,
+				C7449ABA944A7AB57E3C38CA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +359,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		96358E493ADEB16C1B2C8A52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleVIP-ExampleVIPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A66A8758C24DA393653DE2EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleVIP/Pods-ExampleVIP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleVIP/Pods-ExampleVIP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleVIP/Pods-ExampleVIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C019368A4E352745954AE5E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleVIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7449ABA944A7AB57E3C38CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleVIP-ExampleVIPUITests/Pods-ExampleVIP-ExampleVIPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleVIP-ExampleVIPUITests/Pods-ExampleVIP-ExampleVIPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleVIP-ExampleVIPUITests/Pods-ExampleVIP-ExampleVIPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB2CBBC6B7ACB046E74CAB6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleVIPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79DA22F12979DBCF0052CBA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79DA23332979DCB30052CBA8 /* CatsWorker.swift in Sources */,
+				79DA23342979DCB30052CBA8 /* CatsRouter.swift in Sources */,
 				79DA22FD2979DBCF0052CBA8 /* ViewController.swift in Sources */,
+				79DA23352979DCB30052CBA8 /* CatsModels.swift in Sources */,
+				79DA23322979DCB30052CBA8 /* CatsPresenter.swift in Sources */,
+				79DA23372979DCB30052CBA8 /* CatsInteractor.swift in Sources */,
+				79DA23362979DCB30052CBA8 /* CatsViewController.swift in Sources */,
 				79DA22F92979DBCF0052CBA8 /* AppDelegate.swift in Sources */,
 				79DA22FB2979DBCF0052CBA8 /* SceneDelegate.swift in Sources */,
+				79DA23482979E61C0052CBA8 /* HttpRepositoryHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +648,7 @@
 		};
 		79DA23202979DBD10052CBA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1C7AF608C24E22161F30492 /* Pods-ExampleVIP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,7 +657,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleVIP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -459,6 +676,7 @@
 		};
 		79DA23212979DBD10052CBA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 400BBB05A45DCF0493A162D0 /* Pods-ExampleVIP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -467,7 +685,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ExampleVIP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -486,6 +704,7 @@
 		};
 		79DA23232979DBD10052CBA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40ABDC181D49351A771A666B /* Pods-ExampleVIPTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +724,7 @@
 		};
 		79DA23242979DBD10052CBA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0832AC751C4FA71651CAD154 /* Pods-ExampleVIPTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +744,7 @@
 		};
 		79DA23262979DBD10052CBA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDEBF11D0DE2E492BB879ED8 /* Pods-ExampleVIP-ExampleVIPUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +762,7 @@
 		};
 		79DA23272979DBD10052CBA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A977B4D1F21D9E883679B13E /* Pods-ExampleVIP-ExampleVIPUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
